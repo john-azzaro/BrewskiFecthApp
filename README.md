@@ -1,8 +1,9 @@
-# BrewAduApp
+# Brewski Fetch App
 
-## What is BrewAdu?
+## What is Brewski Featch?
 
-BrewAdu is a handy application that finds breweries, cideries, brewpubs, and bottleshops by state.
+Brewski Fecth is a handy application that finds breweries, cideries, brewpubs, and bottleshops by: 
+* state
 
 ## What technologies does BrewAdu use?
 
