@@ -11,11 +11,17 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <header></header>
-
-    <main></main>
-    <footer></footer>
-    
+    <main role="main" aria-live="assertive">
+        <fieldset>
+        <legend> <h1>Find a brewery</h1></legend>
+        <form action="#" class="js-search-form">
+          <label for="searchstate">Search by state:</label>
+          <input id="searchstate" type="text" class="js-brewery" placeholder="California" required>
+          <button id="findbrewery">Click me</button>
+        </form>
+        </fieldset>
+        <section class="js-search-results"><section>
+      </main>     
     <script src="index.js"></script>
 </body>
 </html>
