@@ -1,5 +1,9 @@
-# BrewskiFecthApp
+# BrewAduApp
 
-## What is Brewski Fetch?
+## What is BrewAdu?
 
-Brewski Fetch is a handy app that finds breweries, cideries, brewpubs, and bottleshops by state.
+BrewAdu is a handy application that finds breweries, cideries, brewpubs, and bottleshops by state.
+
+## What technologies does BrewAdu use?
+
+BrewAdu uses HTML, CSS, JavaScript, jQuery, API, AJAX
