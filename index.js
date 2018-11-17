@@ -24,7 +24,7 @@ function getBreweries(state) {
     $('.js-search-results').html(`<ul>${breweries}</ul>`);
   }
   
-  function watchForm() {
+  function handleFormSubmit() {
     $('form').submit(function(event) {
       event.preventDefault();
       const state = $('#searchstate').val();
@@ -32,5 +32,13 @@ function getBreweries(state) {
       $('#searchstate').val("");
     });
   }
-  
-  $(watchForm);
+
+function setUpEventHandlers() {
+    handleFormSubmit()
+}
+
+  function initializeApp() {
+      setUpEventHandlers()
+  }
+
+  $(initializeApp)
