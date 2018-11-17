@@ -13,6 +13,7 @@ function getBreweries(state) {
     $.ajax(settings);
   }
   
+
   function displayResults(responseJson) {
     const breweries = responseJson.map((brewery) => {
       return `
@@ -23,8 +24,9 @@ function getBreweries(state) {
     }).join("\n");     // .join("\n") makes a new line 
     $('.js-search-results').html(`<ul>${breweries}</ul>`);
   }
-  
-  function handleFormSubmit() {
+
+
+function handleFormSubmit() {
     $('form').submit(function(event) {
       event.preventDefault();
       const state = $('#searchstate').val();
@@ -42,3 +44,20 @@ function setUpEventHandlers() {
   }
 
   $(initializeApp)
+
+
+
+  /*  
+
+function displayResults(responseJson) {
+    const breweries = responseJson.map((brewery) => {
+      return `
+        <li>
+          <a href="${brewery.website_url}">${brewery.name}</a>
+        </li>
+      `
+    }).join("\n");     // .join("\n") makes a new line 
+    $('.js-search-results').html(`<ul>${breweries}</ul>`);
+  }
+  
+  */
