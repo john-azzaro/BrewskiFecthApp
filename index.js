@@ -47,17 +47,3 @@ function setUpEventHandlers() {
 
 
 
-  /*  
-
-function displayResults(responseJson) {
-    const breweries = responseJson.map((brewery) => {
-      return `
-        <li>
-          <a href="${brewery.website_url}">${brewery.name}</a>
-        </li>
-      `
-    }).join("\n");     // .join("\n") makes a new line 
-    $('.js-search-results').html(`<ul>${breweries}</ul>`);
-  }
-  
-  */
