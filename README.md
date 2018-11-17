@@ -7,4 +7,4 @@ Brewski Fecth is a handy application that finds breweries, cideries, brewpubs, a
 
 ## What technologies does BrewAdu use?
 
-BrewAdu uses HTML, CSS, JavaScript, jQuery, API, AJAX
+Brewski Fetch uses HTML, CSS, JavaScript, jQuery, API, AJAX.
