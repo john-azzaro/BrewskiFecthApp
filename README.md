@@ -2,7 +2,9 @@
 
 ## What is Brewski Featch?
 
-Brewski Fecth is a handy application that finds breweries, cideries, brewpubs, and bottleshops by: 
+Brewski Fecth is a handy application that finds breweries, cideries, brewpubs, and bottleshops.
+
+The current search filters include: 
 * state
 
 ## What technologies does BrewAdu use?
